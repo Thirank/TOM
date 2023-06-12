@@ -28,8 +28,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-            InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/+xuX7Jr_KqGszZGE1'),
-            InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/+e_UqPGvuQ5E5NGU1')
+            InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/Mc_Group_Films'),
+            InlineKeyboardButton('𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/Mc_films_channel')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -158,7 +158,7 @@ async def start(client, message):
                                          ],
                                          [
                                              InlineKeyboardButton('🧩𝐆𝐨𝐨𝐠𝐥𝐞🧩', url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}"),
-                                             InlineKeyboardButton('UPDATES', url="https://t.me/+e_UqPGvuQ5E5NGU1")
+                                             InlineKeyboardButton('🍀𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍀', url="https://t.me/Mc_Films_Update")
                                          ]                            
                                      ]
                                  )
@@ -178,7 +178,7 @@ async def start(client, message):
                                          ],
                                          [
                                              InlineKeyboardButton('🧩𝐆𝐨𝐨𝐠𝐥𝐞🧩', url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}"),
-                                             InlineKeyboardButton('UPDATES', url="https://t.me/+e_UqPGvuQ5E5NGU1")
+                                             InlineKeyboardButton('🍀𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍀', url="https://t.me/Mc_Films_Update")
                                          ]                            
                                      ]
                                  )
@@ -297,7 +297,7 @@ async def start(client, message):
                                          ],
                                          [
                                              InlineKeyboardButton('🧩𝐆𝐨𝐨𝐠𝐥𝐞🧩', url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}"),
-                                             InlineKeyboardButton('UPDATES', url="https://t.me/+e_UqPGvuQ5E5NGU1")
+                                             InlineKeyboardButton('🍀𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍀', url="https://t.me/Mc_Films_Update")
                                          ]                            
                                      ]
                                  )
@@ -353,14 +353,14 @@ async def start(client, message):
                                          ],
                                          [
                                              InlineKeyboardButton('🧩𝐆𝐨𝐨𝐠𝐥𝐞🧩', url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}"),
-                                             InlineKeyboardButton('UPDATES', url="https://t.me/+e_UqPGvuQ5E5NGU1")
+                                             InlineKeyboardButton('🍀𝐔𝐩𝐝𝐚𝐭𝐞𝐬🍀', url="https://t.me/Mc_Films_Update")
                                          ]                            
                                      ]
                                  )
                              )
                     
 
-    await message.reply(f"<b><a href='https://t.me/+8vZTQtzo0lBmNDY9'>Thank For Using Me...</a></b>")
+    await message.reply(f"<b><a href='https://t.me/Mc_films_channel'>Thank For Using Me...</a></b>")
     
 
 
@@ -633,7 +633,7 @@ async def settings(client, message):
         ]
 
         btn = [[
-            InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/+e_UqPGvuQ5E5NGU1')
+            InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐆𝐫𝐨𝐮𝐩', url=f'https://t.me/Mc_Group_Films')
         ], [
             InlineKeyboardButton("Oᴘᴇɴ Hᴇʀᴇ ↓", callback_data=f"opnsetgrp#{grp_id}"),
             InlineKeyboardButton("Oᴘᴇɴ Iɴ PM ⇲", callback_data=f"opnsetpm#{grp_id}")
